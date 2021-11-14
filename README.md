@@ -1,7 +1,9 @@
 # NoDisplayCutout
 
-A xposed module forces content to be rendered in the cutout area.
+An xposed module forces content to be rendered in the cutout area.
 Mainly used in phones with under-screen cameras like Xiaomi Mix 4.
+
+[中文说明](./README.zh-CN.md)
 
 ![](screenshot.png)
 
