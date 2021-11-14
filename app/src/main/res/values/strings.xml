@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NoDisplayCutout</string>
+    <string name="app_description">Force content renders into the cutout area</string>
+</resources>
