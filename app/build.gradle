@@ -3,6 +3,19 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        def signPropFile = file('../signing.properties')
+        if (signPropFile.canRead()) {
+            def props = new Properties()
+            props.load(new FileInputStream(signPropFile))
+            debug {
+                storeFile file(props['storeFile'])
+                storePassword props['storePassword']
+                keyAlias props['keyAlias']
+                keyPassword props['keyPassword']
+            }
+        }
+    }
     compileSdk 30
 
     defaultConfig {
