@@ -1,5 +1,7 @@
 # NoDisplayCutout
 
+**DEPRECATED**: 请使用[MlgmXyysd/NoneDisplayCutout](https://github.com/MlgmXyysd/NoneDisplayCutout)替代.
+
 强制应用在刘海/挖孔区域中呈现.
 主要用于小米Mix4这种挖了孔但又没挖孔的屏下摄像头手机.
 

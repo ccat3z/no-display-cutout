@@ -1,5 +1,7 @@
 # NoDisplayCutout
 
+**DEPRECATED**: Use [MlgmXyysd/NoneDisplayCutout](https://github.com/MlgmXyysd/NoneDisplayCutout) instead.
+
 An xposed module forces content to be rendered in the cutout area.
 Mainly used in phones with under-screen cameras like Xiaomi Mix 4.
 
