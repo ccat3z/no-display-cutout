@@ -20,7 +20,7 @@ android {
 
     defaultConfig {
         applicationId "xyz.ccat3z.nodisplaycutout"
-        minSdk 28
+        minSdk 30
         targetSdk 30
         versionCode 1
         versionName "1.0"
@@ -31,7 +31,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            versionNameSuffix "-" + new Date().getTime()
+        }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
